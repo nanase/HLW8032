@@ -32,7 +32,7 @@
   "homepage": "http://fastled.io",
   "frameworks": "arduino",
   "platforms": "atmelavr, atmelsam, freescalekinetis, nordicnrf51, nxplpc, ststm32, teensy, espressif8266, espressif32, nordicnrf52",
-  "headers": "hlw8032.h",
+  "examples": "examples/*",
   "export": {
     "exclude": [
       "examples",
@@ -41,10 +41,6 @@
     ]
   },
   "build": {
-    "srcFilter": [
-      "+<lib/**/*.c>",
-      "+<lib/**/*.cpp>",
-      "+<lib/**/*.h>"
-    ]
+    "includeDir": "lib/HLW8032"
   }
 }
