@@ -1,0 +1,52 @@
+*~
+
+# Build outputs
+.build/
+build/
+out/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# PlatformIO
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.pio
+.platformio
+.vscode/extensions.json
+.vscode/c_cpp_properties.json
+.aider*
+!.aider.conf.yml
+!.aiderignore
+ci/native/.vscode/
+tmp/
+firmware_sizes.csv
+.aiderignore
+uv.lock
+.venv
+__pycache__
+*.pyc
+**/.mypy_cache/
+**/.pytest_cache/
+**/.ruff_cache/
+dev/dev.ino.cpp
+ci/tmp/
+ci/tests/output
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vs/
+
+# Logs
+logs
+*.log

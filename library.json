@@ -1,0 +1,50 @@
+{
+  "name": "HLW8032",
+  "description": "HLW8032 is a library that decodes serial data sent by the HLW8032 and makes it available as various readings.",
+  "keywords": [
+    "hlw8032",
+    "power-monitor",
+    "energy-monitor",
+    "voltage",
+    "current",
+    "power",
+    "electricity",
+    "metering",
+    "measurement",
+    "sensor",
+    "arduino",
+    "esp32",
+    "iot"
+  ],
+  "authors": [
+    {
+      "name": "Nanase",
+      "url": "https://github.com/nanase",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanase/HLW8032.git"
+  },
+  "version": "0.1.0",
+  "license": "LGPLv3",
+  "homepage": "http://fastled.io",
+  "frameworks": "arduino",
+  "platforms": "atmelavr, atmelsam, freescalekinetis, nordicnrf51, nxplpc, ststm32, teensy, espressif8266, espressif32, nordicnrf52",
+  "headers": "hlw8032.h",
+  "export": {
+    "exclude": [
+      "examples",
+      "test",
+      "platformio.ini"
+    ]
+  },
+  "build": {
+    "srcFilter": [
+      "+<lib/**/*.c>",
+      "+<lib/**/*.cpp>",
+      "+<lib/**/*.h>"
+    ]
+  }
+}
