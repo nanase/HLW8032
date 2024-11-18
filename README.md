@@ -8,6 +8,17 @@ The library is built without relying on a specific serial communication implemen
 
 > HLW8032 is a high-precision electric energy metering IC which is manufactured using CMOS process and is mainly applied to single-phase application. It is able to measure line voltage and current and calculate active power, apparent power and power factor. (from HLW8032 User manual REV 1.5)
 
+## Install
+
+If you are using PlatformIO, installing the library is easy: just add a link to it in platformio.ini in the lib_deps entry of the env you are using for development.
+
+```ini:platformio.ini
+[env:default]
+lib_deps =
+	https://github.com/nanase/HLW8032.git
+	; https://github.com/nanase/HLW8032.git#0.1.0  ; version specified
+```
+
 ## Example
 
 This example is an Arduino sketch that will be run on Arduino.
